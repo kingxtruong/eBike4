@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>awesome bootstrap checkbox demo</title>
+   <!--  <link rel="stylesheet" href="bootstrap.css"/> -->
+    <link rel="stylesheet" href="../bower_components/Font-Awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="build.css"/>
+</head>
+<body>
+<div class="container">
+
+                    <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" class="styled" type="checkbox" checked>
+                        <label for="checkbox2">
+                            Primary
+                        </label>
+                    </div>
+</div>
+<script type="text/javascript">
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
+</script>
+</body>
+</html>

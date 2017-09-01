@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>
+      KT Bike
+    </title>
+    <link rel="stylesheet" href="js/Flux-Slider-master/css/demo.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/Flux-Slider-master/js/flux.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/product.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('#container #main-products .products-catogory .products-catogory-Search > form > div > ul > li > label').click(function(){
+             $(this).parent('li').children('input').prop('checked', true).trigger('change');
+             
+        });
+        $('#container #main-products .products-list .products-catogory .products-catogory-Search > form > div').hover(function(){
+            $(this).children('ul').toggle();
+        });
+
+        $('#container #main-products .products-list .products-catogory .products-catogory-Search > form > div > ul li').css('background','url("images/icon-unchecked.png") no-repeat left');
+        $('#container #main-products .products-catogory input:checked').hide();
+        $('#container #main-products .products-catogory input:checked').parent('li').css('background','url("images/icon-checked.png") no-repeat left');
+
+          $("#container #main-products .products-catogory .products-catogory-Search > form > div > ul > li > input").change(function(){
+                  $(this).parent('li').parent('ul').children('li').children('input').show();
+                  $(this).parent('li').parent('ul').children('li').css("background",'url("images/icon-unchecked.png") no-repeat left');
+                $(this).parent('li').css('background','url("images/icon-checked.png") no-repeat left');
+                $(this).hide();
+                
+          });
+         
+      });
+
+    </script>
+
+</head>
+<body>
+  <div id="container">
+    <header >
+     <div class="header-wrapper">
+
+        <div class="header_topbar">
+        <div class="header_topbar_phone header_topbar_phone-left"  >
+          <span>Mua hàng & CSKH :  <a class="buyCare" href="">0908437958</a>   /  Tư vấn kỹ thuật :  <a class="supportTech" href="#">0979797979</a></span>
+        </div>
+        <div class="header_topbar_account header_topbar_account-right" >
+          <ul>
+            <li>
+              <a href="" class="signUp">Đăng ký</a>
+            </li>
+            <li class="slashSymbol">
+              /
+            </li>
+            <li>
+              <a href="" class="signIn">Đăng nhập</a>
+            </li>
+            <li class="slashSymbol">
+              /
+            </li>
+            <li>
+              <a href="" class="like">Yêu thích</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <nav>
+          <div class="nav_logo nav_logo-location">
+          </div>
+          <div class="nav_menu nav_menu-location" >
+            <ul>
+              <li>
+                <a href="">Trang chủ</a>
+              </li>
+              <li class="nav_menu_product" id="nav_menu_product">
+                  <a targer="_blank" href="file:///E:/KingBikeWeb/KingBikeWeb/products.html">Sản phẩm ></a>
+                  <div class="dropDownProducts">
+
+                    <div class="type_products">
+
+                      <ul>
+
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                        <li>
+                            <a href="">item type 2</a>
+
+                        </li>
+                        <li class="sub">
+                              <a href="">item type 1</a>
+                              <ul>
+
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 2</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 2</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 2</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 2</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                    <a href="">item type 1</a>
+                                </li>
+                                <li>
+                                      <a href="">item type 1</a>
+                                </li>
+                              </ul>
+                        </li>
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                        <li>
+                            <a href="">item type 1</a>
+                        </li>
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                        <li>
+                            <a href="">item type 1</a>
+                        </li>
+                        <li>
+                              <a href="">item type 1</a>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div class="type_products_show">
+
+                    </div>
+                  </div>
+              </li>
+              <li>
+                  <a href="">Blog</a>
+              </li>
+              <li>
+                  <a href="">Liên hệ</a>
+              </li>
+              <li>
+                  <a href="">Giới thiệu</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav_cart nav_cart-location">
+            <a id="show-cart" href=""><img src="images/bg-cart1.jpg"/><span>0</span></a>
+            <div id="dropDownCart">
+              <ul class="row-car">
+                <li class="info-car">
+                  <div class="image">
+                      <a href=""><img src="images/smallCar.png" width="100px" height="80px"></a>
+                  </div>
+                  <div class="quantity">0</div>
+                  <a class="delete-item-cart" href=""><img src="images/cross-icon.png"  /></a>
+                  <div class="detail">
+
+                      <p>
+                      <a href="">Xe điện BRIDGESTONE PKD200 - Đỏ</a>
+                    </p>
+
+                    <p class="unit-price">
+                      9.000.000₫
+                    </p>
+                  </div>
+                </li>
+                <li class="total-price">
+                  <span class="title-price">Tổng cộng :</span> <span class="totalPrice">9.000.000₫</span>
+                </li>
+                <li class="payment">
+                  <a href="">Thanh toán</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav_formSearch nav_formSearch-location" >
+            <form id="formSearch" method="" action="">
+              <input id="txtSearch" type="search" name="txtSearch" size="20" placeholder="Tìm kiếm ..."/>
+
+              <input id="straightSlash" type="image" src="images/straightSlash.jpg" alt="SUBMIT" name="" />
+              <button id="btnSearch" type="submit" name="btnSearch">&nbsp</button>
+            </form>
+          </div>
+
+      </nav>
+          </div>
+    </header>
+    <main id="main-products">
+        <div class="path-page-wrapper">
+            <div class="path-page">
+                <a href="file:///E:/KingBikeWeb/KingBikeWeb/index.html" >Trang chủ</a><h3 style="display: inline-block;"></h3><span>Tất cả sản phẩm</span>
+            </div>
+        </div>
+        <div class="main-products-title-wrapper">
+            <div class="main-products-title">
+                <h1 >Tất cả sản phẩm</h1>
+            </div>
+        </div>
+        <section class="products-list">
+                  <div class="products-catogory">
+                      <div  class="products-catogory-menu">
+                          Danh mục
+                          <ul class="list-menu">
+                              <li><a href="">Trang chủ</a></li>
+                              <li><a href="">Sản phẩm</a></li>
+                              <li><a href="">Sản phẩm mới</a></li>
+                              <li><a href="">Sản phẩm hot</a></li>
+                              <li><a href="">Sản phẩm khuyến mãi</a></li>
+                          </ul>
+                      </div>
+                      <div class="products-catogory-Search">
+                          <form method="" action="">
+                              <!-- nhớ chèn _token nếu dùng method POST -->
+                              <div class="select-by-brand">
+                              Thương hiệu
+                                <ul>
+                                  <li><input id="kingchecked" type="radio" name="rad_brand" checked="checked" value="brandA" /><label>Brand LA Galaxy</label></li>
+                                  <li><input type="radio" name="rad_brand"  value="brandA" /><label>Brand LA Galaxy</label></li>
+                                  <li><input type="radio" name="rad_brand"  value="brandA" /><label>Brand LA Galaxy</label></li>
+                                </ul>
+                              </div>
+                                                         
+                             
+                              <div class="select-by-price">
+                              Giá sản phẩm
+                                <ul>
+                                  <li><input type="radio" name="rad_price" checked="checked" value="priceA" /><label>&lt; 10.000.000 đ</label></li>
+                                  <li><input type="radio" name="rad_price"  value="priceA" /><label>&lt; 20.000.000 đ</label></li>
+                                  <li><input type="radio" name="rad_price"  value="priceA" /><label>&gt; 25.000.000 đ</label></li> 
+                                  <li><input type="radio" name="rad_price"  value="priceA" /><label>&lt; 35.000.000 đ</label></li>
+                                  <li><input type="radio" name="rad_price"  value="priceA" /><label>&gt; 35.000.000 đ</label></li>                              
+                                </ul>
+                              </div>
+                               
+                              
+                              <div class="select-by-other">
+                              Tùy chọn khác
+                                <ul>
+                                  <li><input type="radio" name="rad_other" checked="checked" value="otherNew" /><label>New</label></li>
+                                  <li><input type="radio" name="rad_other"  value="otherSale" /><label>Sale</label></li>
+                                  <li><input type="radio" name="rad_other" value="otherHot" /><label>Hot</label></li>
+                                </ul>
+                              </div>
+                              <div class="btn-search"><button id="btnSearch" type="submit" name="btnSearch">Tìm kiếm</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="products-show">
+                      <div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div><div class="small-car-item">
+                        <ul class="list-color-car">
+                          <li class="red"  value="Red" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="blue" value="Blue" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="orange" value="Orange" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+                          <li class="white" value="White" car-name="kingBike">
+                            <span class="spclass"></span>
+                          </li>
+
+                        </ul>
+                        <a href=""><img class="small-car" src="images/smallCar.png" /></a>
+                         <img class="new-car" src="images/newSmallCar.png" />
+                         <img class="hot-car" src="images/hotSmallCar.png" />
+                        <img class="sale-car" src="images/saleSmallCar.png" />
+                        <a href=""><span class="car-small-name">XE ĐẠP ĐIỆN NIJIA 2018</span></a>
+                        <ul class="star">
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                          <li>
+                            <img src="images/star.png" />
+                          </li>
+                        </ul>
+                        <div class="unit-price-small-car">
+                          <span class="new-price">16.500.000 đ</span><br /><span class="old-price">16.500.000 đ</span>
+                        </div>
+                        <div class="small-car-item-hidden">
+                          <a href="" class="like-event" normalImage="images/like.png"  effectImage="images/like-active.jpg"><img normalImage="images/like.png"  effectImage="images/like-active.jpg" src="images/like.png"  /></a>
+                          <a href="" class="cart-event" normalImage="images/cart.png"  effectImage="images/cart-active.png"><img normalImage="images/cart.png"  effectImage="images/cart-active.png" src="images/cart.png"  /></a>
+                          <a href="" class="show-event" normalImage="images/show.png"  effectImage="images/show-active.png"><img normalImage="images/show.png"  effectImage="images/show-active.png" src="images/show.png"  /></a>
+                        </div>
+                       </div>
+                  </div>
+                  <div class="products-paginate">
+                      <div class="wrapper-a">
+                        <span><a href="">&lt&lt</a></span><span><a href="">1</a></span><span><a href="">2</a></span><span><a href="">3</a></span><span><a href="">&gt&gt</a></span>
+                      </div>
+                  </div> 
+        </section>
+    </main>
+   <section class="send-email">
+        <div class="send-email-wrapper">
+          <h2>Gửi email để nhận tin khuyến mãi</h2><br>
+        <span>Cùng sao 5S Online bắt nhịp với trào lưu chọn xe điện Ngả mũ thán phục với “siêu phẩm SH<br> trong giới xe PEGA (HKbike) – Xe điện được giới trẻ yêu thích sắp đổi tên thương hiệu.</span><br>
+        <form class="email-form" method="" action="" target="_blank">
+            <input type="text" name="txtEmail" placeholder="nhập email ..." size= 30px; />
+            <button type="submit" name="btnSubmit">GỬI EMAIL</button>
+        </form>
+        </div>
+      </section> 
+     <footer>
+        <div class="footer-wrapper">
+            <div class="footer-wrapper-logo">
+              <a href=""><img src="images/logo.png" /></a>
+            </div>
+            <div class="footer-wrapper-list-menu">
+               <!--  <span>Về chúng tôi       </span> -->
+                <ul>
+                    <li class="li-header">Về chúng tôi  </li>
+                     <li><a href="">Trang  </a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                    <li><a href="">Blog </a></li>
+                    <li><a href="">Liên hệ </a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-wrapper-list-menu">
+                <!-- <span>Về chúng tôi</span> -->
+                <ul>
+                    <li class="li-header">Về chúng tôi </li>
+                     <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Sản phẩm</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                </ul>
+            </div>
+            <div class="footer-wrapper-list-menu">
+               <!--  <span>Thời gian làm việc</span> -->
+                <ul>
+                    <li class="li-header">Thời gian làm việc </li>
+                     <li><a href="">8H30 - 19H30 Hàng </a></li>
+                    <li><a href="">ngày</a></li>
+                    <li><a href="">Email phản hồi, góp ý </a></li>
+                    <li><a href="">về dịch vụ, sản phẩm: </a></li>
+                    <li><a href="">hellocafein@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+      <div class="copy-right-wrapper">
+      <span>© Bản quyền thuộc về </span><h3 style="display: inline-block;font-size: 17px;font-weight: bold">LA_Galaxy</h3><span> Team | Cung cấp bởi</span><a href="" style="font-size: 17px;font-weight: bold;color:orange"> KT-07</a><pre style="display: inline-block;">                                                                                             </pre>
+      <span style="margin-right: 0px;">Theo dõi chúng tôi / </span><a href="" style="font-size: 15px;
+      color: #5418ec;font-weight: bold">kinglagaxy.com</a>
+      </div>
+  </div>
+
+    
+</body>
+</html>
